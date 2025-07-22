@@ -1,0 +1,26 @@
+.neev-content {
+  height: 100%;
+}
+.message-details,
+.message-details-container {
+  box-sizing: border-box;
+}
+
+.message-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50vh;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.message-details-container {
+  overflow: auto;
+  padding: 20px;
+  white-space: nowrap;
+  word-wrap: normal;
+  background: #fff;
+  color: #333;
+  border: 2px solid #aaa;
+}
